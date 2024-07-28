@@ -94,7 +94,7 @@ Contains the HomeScreen widget which displays featured artworks
 'profile_screen.dart'<br>
 Contains the ProfileScreen widget which displays the artists profile and their artworks. It also provides options to edit the profile and logout.
 
-'<br>edit_profile_screen.dart'<br>
+'edit_profile_screen.dart'<br>
 Contains the EditProfileScreen widget which allows artists to update their email, password, and profile image.
 
 'upload_screen.dart'<br>
