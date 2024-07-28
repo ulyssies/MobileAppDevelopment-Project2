@@ -41,12 +41,14 @@ Artfolio is a mobile application aimed at empowering artists by providing them w
   
   1. Clone the repository:  
 
+    ```sh
     git clone https://github.com/yourusername/artfolio.git
 
     cd artfolio
   
   3. Install dependencies:
 
+    ```sh
     flutter pub get
   
   5. Setup Firebase:
