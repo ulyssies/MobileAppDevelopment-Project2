@@ -1,20 +1,21 @@
-**Artfolio**
-Artfolio is a mobile application aimed at empowering artists by providing them with a platform to showcase their creative work, connect with potential clients, and receive valuable feedback. It serves as a digital canvas for artists of various disciplines, including painters, photographers, sculptors, and others.
+#Artfolio
 
-**Features**
-Home Screen: Displays featured artworks
-Profile Screen: Displays the artist’s profile with bio, portfolio
-Search Screen: Allows users to search for specific artworks or artists by title or description.
-Upload Screen: Allows artists to upload new artworks with descriptions and tags.
-Edit Profile: Allows artists to update their profile information, manage their portfolio, and change their profile image.
+>Artfolio is a mobile application aimed at empowering artists by providing them with a platform to showcase their creative work, connect with potential clients, and receive valuable feedback. >It serves as a digital canvas for artists of various disciplines, including painters, photographers, sculptors, and others.
 
-**Getting Started**
+##Features
+  - Home Screen: Displays featured artworks
+  - Profile Screen: Displays the artist’s profile with bio, portfolio
+  - Search Screen: Allows users to search for specific artworks or artists by title or description.
+  - Upload Screen: Allows artists to upload new artworks with descriptions and tags.
+  - Edit Profile: Allows artists to update their profile information, manage their portfolio, and change their profile image.
 
-**Prerequisites**
+##Getting Started
+
+###Prerequisites
   Flutter SDK
   Firebase account
 
-**Installation**
+###Installation
   
   1. Clone the repository:  
     git clone https://github.com/yourusername/artfolio.git
@@ -24,17 +25,17 @@ Edit Profile: Allows artists to update their profile information, manage their p
     flutter pub get
   
   3. Setup Firebase:
-    Create a new project in Firebase.
-    Add an Android app to your Firebase project.
-    Download the google-services.json file and place it in the android/app directory.
-    Add an iOS app to your Firebase project.
-    Download the GoogleService-Info.plist file and place it in the ios/Runner directory.
-    Enable Firestore and Firebase Storage in your Firebase project.
+    - Create a new project in Firebase.
+    - Add an Android app to your Firebase project.
+    - Download the google-services.json file and place it in the android/app directory.
+    - Add an iOS app to your Firebase project.
+    - Download the GoogleService-Info.plist file and place it in the ios/Runner directory.
+    - Enable Firestore and Firebase Storage in your Firebase project.
 
   4. Run the app:
     flutter run
 
-**Project Structure**
+##Project Structure
         lib/
         ├── main.dart
         ├── home_screen.dart
@@ -45,7 +46,7 @@ Edit Profile: Allows artists to update their profile information, manage their p
         ├── login_screen.dart
         └── artwork_detail_screen.dart
 
-**Key Files**
+##Key Files
 
 main.dart
 The entry point of the application. It sets up the MaterialApp and defines the routes.
@@ -71,7 +72,7 @@ Contains the LoginScreen widget which provides login and registration functional
 Firebase Integration
 This project uses Firebase for authentication, Firestore for storing user and artwork data, and Firebase Storage for storing artwork images.
 
-Acknowledgments
+##Acknowledgments
 Flutter
 Firebase
 
