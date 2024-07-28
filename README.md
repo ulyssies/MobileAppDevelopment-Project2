@@ -4,10 +4,20 @@ Artfolio is a mobile application aimed at empowering artists by providing them w
 
 ## Built With
 
-- [![Flutter][Flutter.dev]][flutter-url]
-[flutter](https://flutter.dev)
-[firebase](https://firebase.google.com/)
-
+<div style="display: flex; flex-direction: column;">
+    <div>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40" />
+        <strong>Flutter</strong>
+    </div>
+    <div>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40" />
+        <strong>Firebase</strong>
+    </div>
+    <div>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40" />
+        <strong>Dart</strong>
+    </div>
+</div>
 
 ## Features
 
@@ -41,17 +51,17 @@ Artfolio is a mobile application aimed at empowering artists by providing them w
   
   5. Setup Firebase:
 
-     - Create a new project in Firebase.
+   - Create a new project in Firebase.
 
-     - Add an Android app to your Firebase project.
+   - Add an Android app to your Firebase project.
 
-     - Download the google-services.json file and place it in the android/app directory.
+   - Download the google-services.json file and place it in the android/app directory.
 
-     - Add an iOS app to your Firebase project.
+   - Add an iOS app to your Firebase project.
 
-     - Download the GoogleService-Info.plist file and place it in the ios/Runner directory.
+   - Download the GoogleService-Info.plist file and place it in the ios/Runner directory.
 
-     - Enable Firestore and Firebase Storage in your Firebase project.
+   - Enable Firestore and Firebase Storage in your Firebase project.
 
   6. Run the app:
     flutter run
