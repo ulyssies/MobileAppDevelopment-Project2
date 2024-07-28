@@ -2,6 +2,12 @@
 
 Artfolio is a mobile application aimed at empowering artists by providing them with a platform to showcase their creative work, connect with potential clients, and receive valuable feedback. It serves as a digital canvas for artists of various disciplines, including painters, photographers, sculptors, and others.
 
+## Built With
+
+[flutter](https://flutter.dev)
+[firebase](https://firebase.google.com/)
+
+
 ## Features
 
   - Home Screen: Displays featured artworks
@@ -80,7 +86,6 @@ Contains the UploadScreen widget which allows artists to upload new artworks wit
 'search_screen.dart'<br>
 Contains the SearchScreen widget which allows users to search for specific artworks or artists by title or descript
 
-
 'login_screen.dart'<br>
 Contains the LoginScreen widget which provides login and registration functionality.
 
@@ -92,13 +97,6 @@ Flutter <br>
 
 Firebase
 
-
-
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
