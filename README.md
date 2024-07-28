@@ -48,10 +48,11 @@ cd artfolio
   
   3. Install dependencies:
 
-    ```sh
+```sh
     flutter pub get
-  
-  5. Setup Firebase:
+```
+
+  3. Setup Firebase:
 
    - Create a new project in Firebase.
 
@@ -65,8 +66,11 @@ cd artfolio
 
    - Enable Firestore and Firebase Storage in your Firebase project.
 
-  6. Run the app:
-    flutter run
+  4. Run the app:
+  5. 
+```sh
+flutter run
+```
 
 ## Project Structure
         lib/
