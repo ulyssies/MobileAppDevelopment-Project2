@@ -12,19 +12,21 @@
 ## Getting Started
 
 ### Prerequisites
-  Flutter SDK <br>
+  Flutter SDK 
+
   Firebase account
 
 ### Installation
   
   1. Clone the repository:  
     `git clone https://github.com/yourusername/artfolio.git`
+
     `cd artfolio`
   
-  2. Install dependencies:
+  3. Install dependencies:
     flutter pub get
   
-  3. Setup Firebase:
+  4. Setup Firebase:
     - Create a new project in Firebase.
     - Add an Android app to your Firebase project.
     - Download the google-services.json file and place it in the android/app directory.
@@ -32,7 +34,7 @@
     - Download the GoogleService-Info.plist file and place it in the ios/Runner directory.
     - Enable Firestore and Firebase Storage in your Firebase project.
 
-  4. Run the app:
+  5. Run the app:
     flutter run
 
 ## Project Structure
@@ -48,33 +50,36 @@
 
 ## Key Files
 
-'main.dart'
+'main.dart' <br>
 The entry point of the application. It sets up the MaterialApp and defines the routes.
 
-'home_screen.dart'
+'home_screen.dart'<br>
 Contains the HomeScreen widget which displays featured artworks
 
-'profile_screen.dart'
-Contains the ProfileScreen widget which displays the artist's profile and their artworks. It also provides options to edit the profile and logout.
+'profile_screen.dart'<br>
+Contains the ProfileScreen widget which displays the artist'<br>s profile and their artworks. It also provides options to edit the profile and logout.
 
-'edit_profile_screen.dart'
+'<br>edit_profile_screen.dart'<br>
 Contains the EditProfileScreen widget which allows artists to update their email, password, and profile image.
 
-'upload_screen.dart'
+'upload_screen.dart'<br>
 Contains the UploadScreen widget which allows artists to upload new artworks with descriptions and tags.
 
-'search_screen.dart'
-Contains the SearchScreen widget which allows users to search for specific artworks or artists by title or description.
+'search_screen.dart'<br>
+Contains the SearchScreen widget which allows users to search for specific artworks or artists by title or descript
 
-'login_screen.dart'
+
+'login_screen.dart'<br>
 Contains the LoginScreen widget which provides login and registration functionality.
 
-'Firebase Integration'
+'Firebase Integration'<br>
 This project uses Firebase for authentication, Firestore for storing user and artwork data, and Firebase Storage for storing artwork images.
 
 ## Acknowledgments
 Flutter <br>
+
 Firebase
+
 
 
 
