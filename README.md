@@ -46,7 +46,7 @@ git clone https://github.com/yourusername/artfolio.git
 cd artfolio
 ```
   
-  3. Install dependencies:
+  2. Install dependencies:
 
 ```sh
     flutter pub get
@@ -67,7 +67,7 @@ cd artfolio
    - Enable Firestore and Firebase Storage in your Firebase project.
 
   4. Run the app:
-  5. 
+
 ```sh
 flutter run
 ```
@@ -114,6 +114,9 @@ This project uses Firebase for authentication, Firestore for storing user and ar
 - Flutter 
 - Firebase
 
+## Contact
+
+Anh Tran - anhltrann@gmail.com
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
