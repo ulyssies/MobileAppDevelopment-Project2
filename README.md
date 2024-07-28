@@ -12,14 +12,14 @@
 ## Getting Started
 
 ### Prerequisites
-  Flutter SDK
+  Flutter SDK <br>
   Firebase account
 
 ### Installation
   
   1. Clone the repository:  
-    /git clone https://github.com/yourusername/artfolio.git/
-    cd artfolio
+    `git clone https://github.com/yourusername/artfolio.git`
+    `cd artfolio`
   
   2. Install dependencies:
     flutter pub get
@@ -48,32 +48,32 @@
 
 ## Key Files
 
-main.dart
+'main.dart'
 The entry point of the application. It sets up the MaterialApp and defines the routes.
 
-home_screen.dart
+'home_screen.dart'
 Contains the HomeScreen widget which displays featured artworks
 
-profile_screen.dart
+'profile_screen.dart'
 Contains the ProfileScreen widget which displays the artist's profile and their artworks. It also provides options to edit the profile and logout.
 
-edit_profile_screen.dart
+'edit_profile_screen.dart'
 Contains the EditProfileScreen widget which allows artists to update their email, password, and profile image.
 
-upload_screen.dart
+'upload_screen.dart'
 Contains the UploadScreen widget which allows artists to upload new artworks with descriptions and tags.
 
-search_screen.dart
+'search_screen.dart'
 Contains the SearchScreen widget which allows users to search for specific artworks or artists by title or description.
 
-login_screen.dart
+'login_screen.dart'
 Contains the LoginScreen widget which provides login and registration functionality.
 
-Firebase Integration
+'Firebase Integration'
 This project uses Firebase for authentication, Firestore for storing user and artwork data, and Firebase Storage for storing artwork images.
 
 ## Acknowledgments
-Flutter
+Flutter <br>
 Firebase
 
 
