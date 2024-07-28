@@ -1,21 +1,21 @@
-#Artfolio
+# Artfolio
 
 >Artfolio is a mobile application aimed at empowering artists by providing them with a platform to showcase their creative work, connect with potential clients, and receive valuable feedback. >It serves as a digital canvas for artists of various disciplines, including painters, photographers, sculptors, and others.
 
-##Features
+## Features
   - Home Screen: Displays featured artworks
   - Profile Screen: Displays the artist’s profile with bio, portfolio
   - Search Screen: Allows users to search for specific artworks or artists by title or description.
   - Upload Screen: Allows artists to upload new artworks with descriptions and tags.
   - Edit Profile: Allows artists to update their profile information, manage their portfolio, and change their profile image.
 
-##Getting Started
+## Getting Started
 
-###Prerequisites
+### Prerequisites
   Flutter SDK
   Firebase account
 
-###Installation
+### Installation
   
   1. Clone the repository:  
     git clone https://github.com/yourusername/artfolio.git
@@ -35,7 +35,7 @@
   4. Run the app:
     flutter run
 
-##Project Structure
+## Project Structure
         lib/
         ├── main.dart
         ├── home_screen.dart
@@ -46,7 +46,7 @@
         ├── login_screen.dart
         └── artwork_detail_screen.dart
 
-##Key Files
+## Key Files
 
 main.dart
 The entry point of the application. It sets up the MaterialApp and defines the routes.
@@ -72,7 +72,7 @@ Contains the LoginScreen widget which provides login and registration functional
 Firebase Integration
 This project uses Firebase for authentication, Firestore for storing user and artwork data, and Firebase Storage for storing artwork images.
 
-##Acknowledgments
+## Acknowledgments
 Flutter
 Firebase
 
