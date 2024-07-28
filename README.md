@@ -4,6 +4,7 @@ Artfolio is a mobile application aimed at empowering artists by providing them w
 
 ## Built With
 
+- [![Flutter][Flutter.dev]][flutter-url]
 [flutter](https://flutter.dev)
 [firebase](https://firebase.google.com/)
 
