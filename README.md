@@ -41,10 +41,10 @@ Artfolio is a mobile application aimed at empowering artists by providing them w
   
   1. Clone the repository:  
 
-    ```sh
-    git clone https://github.com/yourusername/artfolio.git
-
-    cd artfolio
+```sh
+git clone https://github.com/yourusername/artfolio.git
+cd artfolio
+```
   
   3. Install dependencies:
 
@@ -102,13 +102,13 @@ Contains the SearchScreen widget which allows users to search for specific artwo
 'login_screen.dart'<br>
 Contains the LoginScreen widget which provides login and registration functionality.
 
-'Firebase Integration'<br>
+## Firebase Integration
 This project uses Firebase for authentication, Firestore for storing user and artwork data, and Firebase Storage for storing artwork images.
 
 ## Acknowledgments
-Flutter <br>
 
-Firebase
+- Flutter 
+- Firebase
 
 
 For help getting started with Flutter development, view the
